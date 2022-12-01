@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -17,30 +22,34 @@
   <!--Część tekstowa-->
   <body>
     <header>
-      <a class="logo" href="./index.html"
-        ><span class="web"> Web</span>Studio</a
-      >
-      <nav>
-        <ul>
-          <li><a class="add-menu link menu" href="#">Agencja</a></li>
-          <li>
-            <a class="add-menu link menu" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="add-menu link menu" href="#">Kontakt</a></li>
-        </ul>
+      <nav class="line-up container">
+        <div class="flex-nav">
+          <a class="logo logo-web" href="./index.html"
+            ><span class="web"> Web</span>Studio</a
+          >
+          <nav>
+            <ul class="flex-links">
+              <li><a class="add-menu link menu" href="#">Agencja</a></li>
+              <li><a class="add-menu link menu" href="./portfolio.html">Portfolio</a></li>
+              <li><a class="add-menu link menu" href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="flex-cont">
+            <li>
+              <a
+                class="add-menu mail link-menu menu"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="add-menu mail link-menu menu" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
       </nav>
-      <ul>
-        <li>
-          <a class="add-menu mail link-menu" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="add-menu mail link-menu" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
     </header>
     <!--Przyciski-->
     <main>

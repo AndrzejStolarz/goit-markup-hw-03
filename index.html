@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -16,36 +20,44 @@
   <!--Część tekstowa-->
   <body>
     <header>
-      <a class="logo" href="./index.html"
-        ><span class="web"> Web</span>Studio</a
-      >
-      <nav >
-        <ul>
-          <li><a class="add-menu link menu " href="#">Agencja</a></li>
-          <li><a class="add-menu link menu " href="./portfolio.html">Portfolio</a></li>
-          <li><a class="add-menu link menu " href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="add-menu mail link-menu" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+      <nav class="line-up container">
+        <div class="flex-nav">
+          <a class="logo logo-web" href="./index.html"
+            ><span class="web"> Web</span>Studio</a
           >
-        </li>
-        <li>
-          <a class="add-menu mail link-menu" href="tel:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
+          <nav>
+            <ul class="flex-links">
+              <li><a class="add-menu link menu" href="#">Agencja</a></li>
+              <li><a class="add-menu link menu" href="./portfolio.html">Portfolio</a></li>
+              <li><a class="add-menu link menu" href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+          <ul class="flex-cont">
+            <li>
+              <a
+                class="add-menu mail link-menu menu"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="add-menu mail link-menu menu" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
       <!--EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU-->
-      <section class="title-background">
+      <section class="title-background background-title section container">
         <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="buttons button-act" type="button">Zamów usługę</button>
+        <button class="buttons button-act button-first" type="button">Zamów usługę</button>
       </section>
       <!--Lorem-->
 
-      <section>
+      <section class="section">
         <ul>
           <li>
             <h3 class="h3">LOREM IPSUM</h3>
@@ -185,7 +197,9 @@
             >
           </li>
           <li>
-            <a class="add-menu mail link-menu" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="add-menu mail link-menu" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
           </li>
         </ul>
       </address>

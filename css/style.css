@@ -18,7 +18,6 @@ body {
 }
 
 .logo {
-  margin-top: 24px;
   color: var(--main-color-black);
   font-family: "Raleway";
   font-style: normal;
@@ -27,6 +26,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.033em;
   text-decoration: none;
+  text-align: center;
   border: none;
 }
 
@@ -154,4 +154,80 @@ body {
 
 .studio {
   color: var(--white-color);
+}
+
+/*DESIGN*/
+
+.container {
+  max-width: 1200px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/*.box {
+  margin: 0 auto;
+}*/
+.line-up {
+  border-bottom: 1px solid #ececec;
+  width: 1600px;
+  top: 80px;
+}
+.logo-web {
+  height: 31px;
+  width: 145px;
+  left: 215px;
+  top: 24px;
+  border-radius: nullpx;
+}
+
+.flex-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.flex-links {
+  display: flex;
+  list-style: none;
+}
+.flex-links li {
+  margin: 0 46px;
+}
+
+.flex-cont {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.flex-cont li {
+  margin: 0 50px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.background-title {
+  height: 600px;
+  width: 1600px;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
+}
+.button-first {
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  right: 700px;
+  top: 430px;
+  border-radius: 4px;
 }
