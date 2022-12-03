@@ -30,7 +30,11 @@
           <nav>
             <ul class="flex-links">
               <li><a class="add-menu link menu" href="#">Agencja</a></li>
-              <li><a class="add-menu link menu" href="./portfolio.html">Portfolio</a></li>
+              <li>
+                <a class="add-menu link menu" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
               <li><a class="add-menu link menu" href="#">Kontakt</a></li>
             </ul>
           </nav>
@@ -53,34 +57,35 @@
     </header>
     <!--Przyciski-->
     <main>
-      <div>
-        <ul>
+      <section class="section">
+      <div class="container ">
+        <ul class="schedule">
           <li>
-            <button class="buttons button-act btn" type="button">
+            <button class="buttons button-act btn button-pass" type="button">
               Wszystkie
             </button>
           </li>
           <li>
-            <button class="buttons button-act btn" type="button">Strony</button>
+            <button class="buttons button-act btn button-pass " type="button">Strony</button>
           </li>
           <li>
-            <button class="buttons button-act btn" type="button">
+            <button class="buttons button-act btn button-pass" type="button">
               Aplikacje
             </button>
           </li>
           <li>
-            <button class="buttons button-act btn" type="button">Dizajn</button>
+            <button class="buttons button-act btn button-pass" type="button">Dizajn</button>
           </li>
           <li>
-            <button class="buttons button-act btn" type="button">
+            <button class="buttons button-act btn button-pass" type="button">
               Marketing
             </button>
           </li>
         </ul>
       </div>
       <!--Oferta-->
-      <section>
-        <ul>
+      <div class="container ">
+        <ul class="team portfolio-net ">
           <li>
             <figure>
               <img
@@ -203,28 +208,32 @@
             </figure>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-
     <footer class="downline-footer">
-      <a class="logo" href="./index.html"
-        ><span class="web"> Web</span><span class="studio">Studio</span></a
-      >
-      <address>
-        <ul class="address">
-          <li>m. Warszawa Aleje Jerozolimskie 21</li>
-          <li>
-            <a class="add-menu mail link-menu" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="add-menu mail link-menu" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container section">
+        <a class="logo logo-web" href="./index.html"
+          ><span class="web"> Web</span><span class="studio">Studio</span></a
+        >
+        <address>
+          <ul class="address location">
+            <li>m. Warszawa Aleje Jerozolimskie 21</li>
+            <li>
+              <a
+                class="add-menu mail link-menu"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="add-menu mail link-menu" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>

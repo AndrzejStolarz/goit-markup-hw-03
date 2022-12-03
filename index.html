@@ -28,7 +28,11 @@
           <nav>
             <ul class="flex-links">
               <li><a class="add-menu link menu" href="#">Agencja</a></li>
-              <li><a class="add-menu link menu" href="./portfolio.html">Portfolio</a></li>
+              <li>
+                <a class="add-menu link menu" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
               <li><a class="add-menu link menu" href="#">Kontakt</a></li>
             </ul>
           </nav>
@@ -51,14 +55,20 @@
     </header>
     <main>
       <!--EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU-->
-      <section class="title-background background-title section container">
-        <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="buttons button-act button-first" type="button">Zamów usługę</button>
+      <section class="title-background background-title section">
+        <div class="container">
+        <h1 class="title title-style">
+          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+        </h1>
+        <button class="buttons button-act button-first bttn" type="button">
+          Zamów usługę
+        </button>
+        </div>
       </section>
       <!--Lorem-->
 
-      <section class="section">
-        <ul>
+      <section class="section"><div class="container">
+        <ul class="description">
           <li>
             <h3 class="h3">LOREM IPSUM</h3>
             <p class="lorem">
@@ -88,12 +98,13 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
       <!--Czym się zajmujemy-->
-      <section>
+      <section class="section"><div class="container">
         <h2 class="h2">Czym się zajmujemy</h2>
-        <ul>
+        <ul class="random">
           <li>
             <img
               src="images/img.jpg"
@@ -119,13 +130,15 @@
             />
           </li>
         </ul>
+        </div>
       </section>
       <!--Nasz zespół-->
-      <section>
+      <section class="section team-section">
+        <div class="container">
         <h2 class="h2">Nasz zespół</h2>
-        <ul>
-          <li>
-            <figure>
+        <ul class="team">
+          <li >
+            <figure class="member-team">
               <img
                 src="images/img2.jpg"
                 alt="Product Designer photo"
@@ -139,7 +152,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="member-team">
               <img
                 src="images/img3.jpg"
                 alt="John Doe photo"
@@ -153,7 +166,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="member-team">
               <img
                 src="images/img4.jpg"
                 alt="John Doe photo"
@@ -167,7 +180,7 @@
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="member-team">
               <img
                 src="images/img5.jpg"
                 alt="John Doe photo"
@@ -181,15 +194,17 @@
             </figure>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <footer class="downline-footer">
-      <a class="logo" href="./index.html"
+      <div class="container section">
+      <a class="logo logo-web " href="./index.html"
         ><span class="web"> Web</span><span class="studio">Studio</span></a
       >
       <address>
-        <ul class="address">
+        <ul class="address location">
           <li>m. Warszawa Aleje Jerozolimskie 21</li>
           <li>
             <a class="add-menu mail link-menu" href="mailto:info@devstudio.com"
@@ -203,6 +218,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
