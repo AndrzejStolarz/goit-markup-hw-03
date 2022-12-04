@@ -178,9 +178,6 @@ li {
   list-style: none;
 }
 
-/*.box {
-  margin: 0 auto;
-}*/
 .line-up {
   border-bottom: 1px solid #ececec;
   width: 1600px;
@@ -204,7 +201,6 @@ li {
 
 .flex-links {
   display: flex;
-  list-style: none;
 }
 .flex-links li {
   margin: 0 46px;
@@ -264,7 +260,6 @@ li {
 .team {
   display: flex;
   justify-content: center;
-
   width: ((100%-90px)/4);
 }
 
