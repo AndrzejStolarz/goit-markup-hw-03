@@ -2,6 +2,13 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .section {
@@ -46,11 +53,6 @@ body {
 }
 
 .title-background {
-  height: 600px;
-  width: 1600px;
-  left: 0px;
-  top: 80px;
-  border-radius: 0px;
   background: var(--backgtound-color-grey);
 }
 
@@ -67,6 +69,7 @@ body {
 }
 .mail {
   color: var(--mail-color);
+  text-decoration: none;
 }
 
 .buttons {
@@ -106,6 +109,9 @@ body {
   line-height: 1.66;
   letter-spacing: 0.03em;
   text-align: center;
+}
+.about {
+  padding-top: 0;
 }
 .h3 {
   font-size: 14px;
@@ -169,62 +175,57 @@ body {
 
 /*DESIGN*/
 
-.container {
-  min-width: 1200px;
-  padding: 15px;
-  box-sizing: border-box;
-}
 li {
   list-style: none;
 }
 
 .line-up {
   border-bottom: 1px solid #ececec;
-  width: 1600px;
-  top: 80px;
 }
+
 .logo-web {
   height: 31px;
   width: 145px;
-  left: 215px;
   top: 24px;
-  margin-left: 215px;
   border-radius: nullpx;
+  margin-right: 93px;
 }
 
 .flex-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0;
 }
 
 .flex-links {
   display: flex;
+  justify-content: space-between;
 }
-.flex-links li {
-  margin: 0 46px;
+/* nav margin start*/
+.arbor {
+  margin: 0 46px 0;
 }
+/* nav margin stop*/
 
 .flex-cont {
   display: flex;
   list-style: none;
-  padding: 0;
+  justify-content: space-between;
+  margin-left: auto;
 }
 
-.flex-cont li {
-  margin: 0 50px;
+/* contact margin start*/
+.reject {
+  margin-left: 50px;
 }
+/* contact margin stop*/
 
 .background-title {
-  height: 600px;
   width: 1600px;
-  left: 0px;
-  top: 80px;
-  border-radius: 0px;
+  padding: 200px 452px 280px;
 }
 .title-style {
-  padding: 0 452px 0;
+  text-align: center;
 }
 
 .button {
@@ -240,27 +241,23 @@ li {
 
 .description {
   display: flex;
-  margin: 94px 215px 0;
+  justify-content: space-between;
   list-style: none;
 }
 
 .random {
   display: flex;
   gap: 30px;
-
-  padding: 0 215px 0;
 }
 
 .team-section {
   background: #f5f4fa;
-
-  padding: 0 215px 0 auto;
 }
 
 .team {
   display: flex;
+  gap: 30px;
   justify-content: center;
-  width: ((100%-90px)/4);
 }
 
 .member-team {
@@ -272,18 +269,20 @@ li {
   box-shadow: 0px 1px 3px 0px #0000001f;
   width: ((100%-90px)/4);
 }
-.location {
-  padding-left: 215px;
+.under {
+  padding-bottom: 30px;
 }
 
 .schedule {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  column-gap: 8px;
 }
 .button-pass {
   padding: 6px 22px;
   border-radius: 4px;
+  margin-bottom: 50px;
+  border: none;
 }
 
 .portfolio-net {
@@ -291,4 +290,7 @@ li {
 }
 .frame {
   width: ((100%-180px)/12);
+}
+.portfolio-net li {
+  border: 1px solid #eeeeee;
 }
