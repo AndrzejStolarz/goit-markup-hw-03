@@ -109,6 +109,7 @@ body {
   line-height: 1.66;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
 }
 .about {
   padding-top: 0;
@@ -150,11 +151,8 @@ body {
 }
 
 .downline-footer {
-  height: 252px;
-  width: 1600px;
-  left: 0px;
-  top: 2097px;
-  border-radius: 0px;
+  padding: 60px 1139px 60px 215px;
+
   background: var(--backgtound-color-grey);
 }
 
@@ -181,6 +179,7 @@ li {
 
 .line-up {
   border-bottom: 1px solid #ececec;
+  padding: 32px 0px;
 }
 
 .logo-web {
@@ -221,17 +220,17 @@ li {
 /* contact margin stop*/
 
 .background-title {
-  width: 1600px;
-  padding: 200px 452px 280px;
+  padding: 230px 0;
 }
 .title-style {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .button {
-  margin-top: 30px;
   padding: 10px 41px 10px 42px;
   border-radius: 4px;
+  border: none;
 }
 
 .bttn {
@@ -242,12 +241,14 @@ li {
 .description {
   display: flex;
   justify-content: space-between;
+  column-gap: 30px;
   list-style: none;
 }
 
 .random {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 .team-section {
@@ -291,6 +292,10 @@ li {
 .frame {
   width: ((100%-180px)/12);
 }
-.portfolio-net li {
+.portfolio-net figcaption {
   border: 1px solid #eeeeee;
+  border-top: 0;
+}
+.pic-border {
+  vertical-align: bottom;
 }
