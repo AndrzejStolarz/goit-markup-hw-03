@@ -151,8 +151,7 @@ body {
 }
 
 .downline-footer {
-  padding: 60px 0 60px 0;
-
+  padding: 60px 0;
   background: var(--backgtound-color-grey);
 }
 
